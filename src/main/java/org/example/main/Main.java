@@ -3,6 +3,7 @@ package org.example.main;
 import org.example.packageone.ClassOne;
 import org.example.packagetwo.ClassTwo;
 import org.example.packagethree.ClassThree;
+import static java.lang.System.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,9 +11,9 @@ public class Main {
         ClassTwo classTwo = new ClassTwo();
         ClassThree classThree = new ClassThree();
 
-        System.out.println(classOne.greet());
-        System.out.println(classTwo.greet());
-        System.out.println(classThree.greet());
+        out.println(classOne.greet());
+        out.println(classTwo.greet());
+        out.println(classThree.greet());
 
     }
 }
